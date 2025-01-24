@@ -156,7 +156,13 @@ mean_shift.display_results(mean_shift.input_image, segmented_image)
 # Save the segmented image
 mean_shift.save_image(segmented_image, 'output.jpg')
 ```
-![Alt text](https://github.com/alikasiri1/Mean_shift_segmentation/blob/main/segmented_image_1.png?raw=true)  
+---
+## results
+![Alt text](https://github.com/alikasiri1/Mean_shift_segmentation/blob/main/segmented_image_1.png?raw=true) 
+ 
+![Alt text](https://github.com/alikasiri1/Mean_shift_segmentation/blob/main/segmented_image_2.png?raw=true) 
+
+![Alt text](https://github.com/alikasiri1/Mean_shift_segmentation/blob/main/segmented_image_3.png?raw=true) 
 ---
 
 ## Summary
