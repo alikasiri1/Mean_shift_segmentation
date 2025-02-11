@@ -2,6 +2,11 @@
 
 The **MeanShiftSegmentation** class implements a custom Mean Shift algorithm for image segmentation. It processes an input image by grouping pixels into clusters based on their spatial and color similarities, resulting in a segmented image. Below is the detailed documentation for each part of the implementation.
 
+## Results
+![Alt text](https://github.com/alikasiri1/Mean_shift_segmentation/blob/main/segmented_image_3.png?raw=true) 
+![Alt text](https://github.com/alikasiri1/Mean_shift_segmentation/blob/main/segmented_image_1.png?raw=true) 
+![Alt text](https://github.com/alikasiri1/Mean_shift_segmentation/blob/main/segmented_image_2.png?raw=true) 
+
 ---
 
 ## Class Initialization
@@ -156,14 +161,7 @@ mean_shift.display_results(mean_shift.input_image, segmented_image)
 # Save the segmented image
 mean_shift.save_image(segmented_image, 'output.jpg')
 ```
----
-## results
-![Alt text](https://github.com/alikasiri1/Mean_shift_segmentation/blob/main/segmented_image_1.png?raw=true) 
- 
-![Alt text](https://github.com/alikasiri1/Mean_shift_segmentation/blob/main/segmented_image_2.png?raw=true) 
 
-![Alt text](https://github.com/alikasiri1/Mean_shift_segmentation/blob/main/segmented_image_3.png?raw=true) 
----
 
 ## Summary
 The **MeanShiftSegmentation** class provides a robust implementation of the Mean Shift algorithm, allowing for customizable spatial and color clustering. Key features include:
